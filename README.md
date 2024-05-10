@@ -59,19 +59,9 @@ Shift the graft point closer by this number of residues.
 The results are saved in the "output_path" and the grafts are located at:
 `output_path/*/*idealized.pdb` 
 
-## Future development
-- Add option to specify the graft points
-- Add option to output in silent file format
-- Add option to filter based on contacts with target and termini distance to target
-
 ## Support
 Contact David Kim (dekim@uw.edu) for any questions.
 
 ## Authors and acknowledgment
 This work was conceptualized and developed by David Kim (dekim@uw.edu), Pat Erickson (pwe@uw.edu), and Thomas Schlichthaerle (thomschl@uw.edu).
 
-## License
-For open source projects, say how it is licensed.
-
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
