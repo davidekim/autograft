@@ -8,7 +8,7 @@ Autograft is a python script package that can identify a beta-hairpin loop that 
 ## Installation
 You can clone this repo into a preferred destination directory by going to that directory and then running:
 
-`git clone https://git.ipd.uw.edu/dekim/autograft.git`
+`git clone https://github.com/davidekim/autograft.git`
 
 ## Usage
 auto_graft.py is the main script and requires a single input json file. An optional argument can be provided to parallelize the run on the digs.
@@ -17,8 +17,6 @@ auto_graft.py is the main script and requires a single input json file. An optio
 
 ### The python environment
 The script uses PyRosetta so you should use the pyrosetta conda environment
-
-`source activate pyrosetta`
 
 ### Json input file
 The input file should contain the following configurable parameters:
