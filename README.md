@@ -16,7 +16,7 @@ auto_graft.py is the main script and requires a single input json file. An optio
 `python ./auto_graft.py <json input file> [scaffolds per sbatch array job (min 100)]`
 
 ### The python environment
-The script uses PyRosetta so you should use the pyrosetta conda environment
+The script uses PyRosetta.
 
 ### Json input file
 The input file should contain the following configurable parameters:
