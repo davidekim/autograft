@@ -11,7 +11,7 @@ You can clone this repo into a preferred destination directory by going to that 
 `git clone https://github.com/davidekim/autograft.git`
 
 ## Usage
-auto_graft.py is the main script and requires a single input json file. An optional argument can be provided to parallelize the run on the digs.
+auto_graft.py is the main script and requires a single input json file.
 
 `python ./auto_graft.py <json input file> [scaffolds per sbatch array job (min 100)]`
 
