@@ -2,8 +2,9 @@
     "target_complex_pdb": "6vtt_c.pdb",
     "graft_chain": "c",
     "scaffolds_paths": [ 
-        "../scaffolds/AF2_selected_groups_85_1.5.txt",
-        "../scaffolds/AF2_selected_90_1.0.txt"
+        "../scaffolds/AF2_selected_groups_85_1.5_01",
+        "../scaffolds/AF2_selected_groups_85_1.5_02",
+        "../scaffolds/AF2_selected_90_1.0"
     ],
     "output_path": "grafts_6vtt_c",
     "MAX_RMSD": 1.75,
