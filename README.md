@@ -23,7 +23,7 @@ auto_graft.py is the main script and requires a single input json file.
 `python ./auto_graft.py <json input file> [scaffolds per sbatch array job (min 100)]`
 
 ### The python environment
-The script uses PyRosetta.
+The script uses PyRosetta. https://www.pyrosetta.org/
 
 ### Json input file
 The input file should contain the following configurable parameters:
@@ -65,6 +65,12 @@ Shift the graft point closer by this number of residues.
 ### Output
 The results are saved in the "output_path" and the grafts are located at:
 `output_path/*/*idealized.pdb` 
+
+### Example
+```sh
+cd example
+python ../auto_graft.py 6vtt_c.json
+```
 
 ## Support
 Contact David Kim (dekim@uw.edu) for any questions.
