@@ -8,7 +8,14 @@ Autograft is a python script package that can identify a beta-hairpin loop that 
 ## Installation
 You can clone this repo into a preferred destination directory by going to that directory and then running:
 
-`git clone https://github.com/davidekim/autograft.git`
+```sh
+git clone https://github.com/davidekim/autograft.git
+cd autograft/scaffolds
+tar -zxf AF2_selected_90_1.0.tar.gz
+tar -zxf AF2_selected_groups_85_1.5_01.tar.gz
+tar -zxf AF2_selected_groups_85_1.5_02.tar.gz
+cd ../
+```
 
 ## Usage
 auto_graft.py is the main script and requires a single input json file.
