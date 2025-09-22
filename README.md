@@ -78,3 +78,5 @@ Contact David Kim (dekim@uw.edu) for any questions.
 ## Authors and acknowledgment
 This work was conceptualized and developed by David Kim (dekim@uw.edu), Pat Erickson (pwe@uw.edu), and Thomas Schlichthaerle (thomschl@uw.edu).
 
+## Alternative methods to consider
+Motif scaffolding using RFdiffusion. https://github.com/RosettaCommons/RFdiffusion?tab=readme-ov-file#motif-scaffolding
