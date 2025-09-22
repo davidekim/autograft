@@ -340,9 +340,12 @@ scaffolds_file = jobid+"_scaffolds.txt"
 scaffolds = []
 if os.path.exists(scaffolds_file):
     scaffoldsdict = {}
+    scaffolds_dir = '/'.join(scaffolds_file.split('/')[0:-1])
     with open(scaffolds_file) as tempf:
         for line in tempf:
             scaff = line.strip()
+            if not scaff.startswith('/') and not os.path.exists(scaff):
+                scaff = scaffolds_dir+'/'+scaff
             if scaff not in scaffoldsdict:
                 scaffolds.append(scaff)
                 scaffoldsdict[scaff] = True
@@ -352,9 +355,12 @@ else:
     scaffoldsdict = {}
     for scaffolds_path in CONF['scaffolds_paths']:
         if not os.path.isdir(scaffolds_path):
+            scaffolds_dir = '/'.join(scaffolds_path.split('/')[0:-1])
             with open(scaffolds_path) as tempf:
                 for line in tempf:
                     scaff = line.strip()
+                    if not scaff.startswith('/') and not os.path.exists(scaff):
+                        scaff = scaffolds_dir+'/'+scaff
                     if scaff not in scaffoldsdict:
                         scaffolds.append(scaff)
                         sfl.write(scaff+"\n")

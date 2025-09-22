@@ -1,0 +1,16 @@
+{
+    "target_complex_pdb": "6vtt_c.pdb",
+    "graft_chain": "c",
+    "scaffolds_paths": [ 
+        "../scaffolds/AF2_selected_groups_85_1.5.txt",
+        "../scaffolds/AF2_selected_90_1.0.txt"
+    ],
+    "output_path": "grafts_6vtt_c",
+    "MAX_RMSD": 1.75,
+    "MAX_SCAF_REPLACEMENT_LEN": 10,
+    "MAX_STRAND_PAIR_CONTACT_DISTANCE": 10,
+    "MAX_GRAFT_POINT_CONTACTS": 5,
+    "MAX_CONTACT_DISTANCE": 8,
+    "MAX_STRAND_PAIRS": 1,
+    "SHIFT_STRAND_PAIRS_BY": -1
+}
